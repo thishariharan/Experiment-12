@@ -25,9 +25,6 @@ public class exp122 {
                 case 3:
                     p.sch();
                     break;
-                case 4:
-                    p.pck();
-                    break;
                 default:
                     i++;
                     break;
@@ -86,17 +83,6 @@ class pokes
         {
             ck = a.get(g).getClass().getSimpleName();
             if(ck.equals(s))
-            {
-                System.out.print("\n"+a.get(g)+" - "+ck);
-            }
-        }
-    }
-    void pck()
-    {
-        String ck;
-        for(int g=0;g<a.size();g++)
-        {
-            ck = a.get(g).getClass().getSimpleName();
             {
                 System.out.print("\n"+a.get(g)+" - "+ck);
             }
